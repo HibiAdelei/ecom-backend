@@ -24,8 +24,10 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       // references the product model's id 
       references: {
+
         model: 'product',
         key: 'id'
+
       }
 
     },
@@ -35,18 +37,24 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       // references the tag model's id 
       references: {
+        
         model: 'tag',
         key: 'id'
+
       }
     }
   },
+
   {
+
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
+
   }
+  
 );
 
 module.exports = ProductTag;
