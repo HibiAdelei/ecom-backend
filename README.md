@@ -14,6 +14,7 @@
     
   # Installation
    Use the Schema to create a database, then seed it in your terminal with npm run seed. Then start the server by running npm start in the root. Then you should be able to test the application through either Insomnia or your browser.
+   Provided here is a video demonstration: https://drive.google.com/file/d/1DNkY25vVNlOqTCj7oFjGwWIJKYVq4ctP/view?usp=sharing
 
   # Usage
    This was largely developed as a test, but by incorporating fullstack development techniques one could turn this into a proper storefront. 
